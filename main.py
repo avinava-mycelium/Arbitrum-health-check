@@ -3,7 +3,7 @@ from fastapi import FastAPI, Request, Response
 import json
 import http3
 
-url = "http://nd-arb-2:8545"  # your arbitrum RPC endpoint
+url = "http://nd-arb-1:8545"  # your arbitrum RPC endpoint
 
 app = FastAPI()
 
