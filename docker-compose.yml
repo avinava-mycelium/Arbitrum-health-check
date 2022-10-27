@@ -2,7 +2,7 @@ version: '3'
 services:
     core_api:
         build: .
-        container_name: "fastapi"
+        container_name: "arb-hc"
         ports:
             - "8547:8547"
         volumes:
